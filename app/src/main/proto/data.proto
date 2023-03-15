@@ -1,0 +1,11 @@
+syntax = "proto3";
+option java_package = "com.chen.beeaudio.proto";
+option java_multiple_files = true;
+
+message TokenModel {
+  string access_token = 1;
+  int64 expires_in = 2;
+  string refresh_token = 3;
+  string scope = 4;
+  string token_type = 5;
+}

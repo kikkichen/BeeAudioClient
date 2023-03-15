@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BeeAudio</string>
+    <string name="notification_channel_name">Bee Audio</string>
+</resources>
